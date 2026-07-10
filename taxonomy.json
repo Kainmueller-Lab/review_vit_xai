@@ -1,0 +1,11 @@
+{
+    "Scope": ["Local", "Global"],
+	"Stage": ["Post-hoc", "Ante-hoc"],
+    "Model Compatability": ["Model-specific", "Vision-transformer-specific", "Model-agnostic"],
+    "Class-specificity": ["Class-specific", "Class-agnostic"],
+    "Explanation Target": ["Prediction", "Concept", "Embedding", "Patch Interactions"],
+    "Result": [ "Feature Relevance", "Scalar", "Examples", "Graph", "Text"], 
+    "Functioning": ["Activation", "Attention", "Perturbations", "Relevance", "Gradient"],
+    "Architectural Mechanisms": ["Prototype-based", "Concept-based", "Weight-Input-Alignment", "Masking-based", "Connectivity Constraints"]
+
+}
