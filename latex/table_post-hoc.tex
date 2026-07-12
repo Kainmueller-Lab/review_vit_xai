@@ -1,7 +1,7 @@
-\begin{tabular}{ll|cc|cc|ccc|cc|cccc|ccccc|ccccc|ccccc}
+\begin{tabular}{ll|cc|ccc|cc|cccc|ccccc|ccccc|ccccc}
 
-&\rotatebox{90}{Year} & \rotatebox{90}{Local} & \rotatebox{90}{Global} & \rotatebox{90}{Model-specific} & \rotatebox{90}{Vision-transformer-specific} & \rotatebox{90}{Model-agnostic} & \rotatebox{90}{Class-specific} & \rotatebox{90}{Class-agnostic} & \rotatebox{90}{Prediction} & \rotatebox{90}{Concept} & \rotatebox{90}{Embedding} & \rotatebox{90}{Patch Interactions} & \rotatebox{90}{Feature Relevance} & \rotatebox{90}{Scalar} & \rotatebox{90}{Examples} & \rotatebox{90}{Graph} & \rotatebox{90}{Text} & \rotatebox{90}{Attention} & \rotatebox{90}{Activation} & \rotatebox{90}{Perturbations} & \rotatebox{90}{Relevance} & \rotatebox{90}{Gradient} & \rotatebox{90}{Prototype-based} & \rotatebox{90}{Concept-based} & \rotatebox{90}{Weight-Input-Alignment} & \rotatebox{90}{Masking-based} & \rotatebox{90}{Connectivity Constraints}\\
-&&\multicolumn{2}{c|}{Scope} & \multicolumn{2}{c|}{Stage} & \multicolumn{3}{c|}{Model Compatability} & \multicolumn{2}{c|}{Class-specificity} & \multicolumn{4}{c|}{Explanation Target} & \multicolumn{5}{c|}{Result} & \multicolumn{5}{c|}{Functioning} & \multicolumn{5}{c|}{Architectural Mechanisms} \\
+Method & Year & \rotatebox{90}{Local} & \rotatebox{90}{Global} & \rotatebox{90}{Model-specific} & \rotatebox{90}{Vision-transformer-specific} & \rotatebox{90}{Model-agnostic} & \rotatebox{90}{Class-specific} & \rotatebox{90}{Class-agnostic} & \rotatebox{90}{Prediction} & \rotatebox{90}{Concept} & \rotatebox{90}{Embedding} & \rotatebox{90}{Patch Interactions} & \rotatebox{90}{Feature Relevance} & \rotatebox{90}{Scalar} & \rotatebox{90}{Examples} & \rotatebox{90}{Graph} & \rotatebox{90}{Text} & \rotatebox{90}{Activation} & \rotatebox{90}{Attention} & \rotatebox{90}{Perturbations} & \rotatebox{90}{Relevance} & \rotatebox{90}{Gradient} & \rotatebox{90}{Prototype-based} & \rotatebox{90}{Concept-based} & \rotatebox{90}{Weight-Input-Alignment} & \rotatebox{90}{Masking-based} & \rotatebox{90}{Connectivity Constraints}\\
+&&\multicolumn{2}{c|}{Scope} & \multicolumn{3}{c|}{Model Compatability} & \multicolumn{2}{c|}{Class-specificity} & \multicolumn{4}{c|}{Explanation Target} & \multicolumn{5}{c|}{Result} & \multicolumn{5}{c|}{Functioning} & \multicolumn{5}{c|}{Architectural Mechanisms} \\
 \midrule
 \addlinespace
 Transformer Attribution \cite{cheferTransformerInterpretabilityAttention2021} & 2021 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  & x &  &  &  &  &  &  \\
@@ -20,7 +20,7 @@ TIS \cite{englebertExplainingTransformerInput2023} & 2023 & x &  &  & x &  & x &
 ViT-ReciproCAM \cite{byunViTReciproCAMGradientAttentionFree2023} & 2023 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  &  & x &  &  &  &  &  &  &  \\
 DIX \cite{barkanDeepIntegratedExplanations2023} & 2023 & x &  &  &  & x & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  & x &  &  &  &  &  \\
 LTX \cite{barkanLearningExplainModelAgnostic2023} & 2023 & x &  &  &  & x & x &  & x &  &  &  & x &  &  &  &  &  &  & x &  &  &  &  &  &  &  \\
-INVERT \cite{0} & 2023 & x & x &  &  & x &  & x & x &  &  &  &  & x & x &  & x &  & x &  &  &  &  &  &  &  &  \\
+INVERT \cite{bykovLabelingNeuralRepresentations2023} & 2023 & x & x &  &  & x &  & x & x &  &  &  &  & x & x &  & x &  & x &  &  &  &  &  &  &  &  \\
 Class Representations \cite{vilasAnalyzingVisionTransformers2023} & 2023 & x &  &  & x &  & x &  & x & x &  &  & x &  &  &  &  & x & x &  &  &  &  &  &  &  &  \\
 Stat. Attention \cite{nguyenInspectingExplainabilityTransformer2023} & 2023 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  & x &  &  &  &  &  \\
 CDAM \cite{brockiClassDiscriminativeAttentionMaps2023} & 2023 & x &  &  & x &  & x &  & x & x &  &  & x &  &  &  &  & x & x &  &  & x &  &  &  &  &  \\
@@ -30,7 +30,7 @@ Attention Guided CAM \cite{leemAttentionGuidedCAM2024} & 2024 & x &  &  & x &  &
 AttnLRP \cite{achtibatAttnLRPAttentionAwareLayerwise2024} & 2024 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  &  &  & x &  &  &  &  &  &  \\
 T-TAME \cite{ntrougkasTTAMETrainableAttention2024} & 2024 & x &  &  &  & x & x &  & x &  &  &  & x &  &  &  &  &  & x &  &  &  &  &  &  &  &  \\
 TokenTM \cite{wuTokenTransformationMatters2024} & 2024 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  & x &  &  &  &  &  \\
-LeGrad \cite{0} & 2024 & x &  &  & x &  & x & x & x &  &  &  & x &  &  &  &  &  &  &  &  & x &  &  &  &  &  \\
+LeGrad \cite{bousselhamLeGradExplainabilityMethod2024} & 2024 & x &  &  & x &  & x & x & x &  &  &  & x &  &  &  &  &  &  &  &  & x &  &  &  &  &  \\
 SkipPLUS \cite{mehriSkipPLUSSkipFirst2024} & 2024 & x &  &  &  & x & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  &  &  &  &  &  &  \\
 PACE \cite{wangProbabilisticConceptualExplainers2024} & 2024 & x & x &  &  & x &  & x &  & x &  &  & x & x & x &  &  & x & x & x &  &  &  &  &  &  &  \\
 FovEx \cite{pandaHumaninspiredExplanationsVision2024} & 2024 & x &  &  &  & x &  & x & x &  &  &  & x &  &  &  &  &  &  & x &  & x &  &  &  &  &  \\
@@ -40,21 +40,21 @@ ViTmiX \cite{hogeaViTmiXVisionTransformer2024} & 2024 & x &  &  & x &  & x &  & 
 AttEXplore++ \cite{zhuAttributionEnhancedExplanation2024} & 2024 & x &  &  &  & x & x &  & x &  &  &  & x &  &  &  &  &  &  &  &  & x &  &  &  &  &  \\
 \addlinespace
 P-TAME \cite{ntrougkasPTAMEExplainAny2025} & 2025 & x &  &  &  & x & x &  & x &  &  &  & x &  &  &  &  &  &  & x &  &  &  &  &  &  &  \\
-REPEAT \cite{0} & 2025 & x &  &  &  & x &  &  &  &  & x &  & x & x &  &  &  &  &  & x &  &  &  &  &  &  &  \\
+REPEAT \cite{wickstromREPEATImprovingUncertainty2024} & 2025 & x &  &  &  & x &  &  &  &  & x &  & x & x &  &  &  &  &  & x &  &  &  &  &  &  &  \\
 A-SAE \cite{felArchetypalSAEAdaptive2025} & 2025 & x & x &  &  & x &  & x &  & x &  &  & x &  &  &  &  &  & x &  &  &  &  &  &  &  &  \\
-NeuronPath \cite{0} & 2025 &  & x &  & x &  & x &  & x &  &  &  &  &  &  & x &  &  & x &  &  & x &  &  &  &  &  \\
-DAAM \cite{0} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  &  &  &  &  &  &  \\
-GMAR \cite{0} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  & x &  &  &  &  &  \\
-MDA \cite{0} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  &  & x &  &  &  &  &  &  &  \\
-InFlow \cite{0} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x & x &  &  & x &  &  &  &  &  \\
-PA-LRP \cite{0} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  &  &  & x &  &  &  &  &  &  \\
-GCC \cite{0} & 2025 & x & x &  &  & x &  & x & x & x &  &  & x &  & x & x &  &  & x & x &  &  &  &  &  &  &  \\
-SemanticLens \cite{0} & 2025 & x & x &  &  & x & x & x & x & x &  &  &  & x & x &  & x &  & x &  & x &  &  &  &  &  &  \\
-Integrating Attention \cite{0} & 2025 & x & x &  & x &  & x & x & x & x &  &  & x & x &  &  &  & x &  & x &  & x &  &  &  &  &  \\
-RRM \cite{0} & 2025 & x & x &  & x &  &  & x & x &  &  &  &  &  & x & x &  &  & x &  &  & x &  &  &  &  &  \\
-MUTEX \cite{0} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  & x &  &  &  &  &  &  &  \\
-autoXplain \cite{0} & 2025 & x & x &  &  & x & x &  & x &  &  &  & x &  &  &  & x &  & x &  &  & x &  &  &  &  &  \\
-RFEM \cite{0} & 2025 & x &  &  & x &  & x & x & x &  &  &  & x &  &  &  &  & x &  &  &  & x &  &  &  &  &  \\
-VisionLogic \cite{0} & 2025 & x & x &  &  & x & x &  & x &  &  &  & x &  &  &  & x &  & x &  &  &  &  &  &  &  &  \\
+NeuronPath \cite{wangDiscoveringInfluentialNeuron2025} & 2025 &  & x &  & x &  & x &  & x &  &  &  &  &  &  & x &  &  & x &  &  & x &  &  &  &  &  \\
+DAAM \cite{liaoDynamicAccumulatedAttention2025} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  &  &  &  &  &  &  \\
+GMAR \cite{joGMARGradientDrivenMultiHead2025} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  & x &  &  &  &  &  \\
+MDA \cite{walkerMetricDrivenAttributionsVision2024} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  &  & x &  &  &  &  &  &  &  \\
+InFlow \cite{walkerExplainingViTsUsing2025} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x & x &  &  & x &  &  &  &  &  \\
+PA-LRP \cite{bakishRevisitingLRPPositional2025} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  &  &  & x &  &  &  &  &  &  \\
+GCC \cite{kwonGranularConceptCircuits2025} & 2025 & x & x &  &  & x &  & x & x & x &  &  & x &  & x & x &  &  & x & x &  &  &  &  &  &  &  \\
+SemanticLens \cite{dreyerMechanisticUnderstandingValidation2025} & 2025 & x & x &  &  & x & x & x & x & x &  &  &  & x & x &  & x &  & x &  & x &  &  &  &  &  &  \\
+Integrating Attention \cite{eggenIntegratingAttentionExplanation2025} & 2025 & x & x &  & x &  & x & x & x & x &  &  & x & x &  &  &  & x &  & x &  & x &  &  &  &  &  \\
+RRM \cite{kimInterpretingVisionTransformers2025} & 2025 & x & x &  & x &  &  & x & x &  &  &  &  &  & x & x &  &  & x &  &  & x &  &  &  &  &  \\
+MUTEX \cite{marchettiMultiplexNetworkbasedRepresentation2025} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  & x &  &  &  &  &  &  &  \\
+autoXplain \cite{nguyenNovelFrameworkAutomated2025} & 2025 & x & x &  &  & x & x &  & x &  &  &  & x &  &  &  & x &  & x &  &  & x &  &  &  &  &  \\
+RFEM \cite{ayyarThereMoreAttention2025} & 2025 & x &  &  & x &  & x & x & x &  &  &  & x &  &  &  &  & x &  &  &  & x &  &  &  &  &  \\
+VisionLogic \cite{gengLearningInterpretableLogic2025} & 2025 & x & x &  &  & x & x &  & x &  &  &  & x &  &  &  & x &  & x &  &  &  &  &  &  &  &  \\
 \bottomrule
 \end{tabular}
