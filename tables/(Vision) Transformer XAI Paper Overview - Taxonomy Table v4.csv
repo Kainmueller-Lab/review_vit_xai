@@ -24,7 +24,7 @@ TIS,2023,x,,x,,,x,,x,,x,,,,x,,,,,,,x,,,,,,,,x,x,,x,englebertExplainingTransforme
 ViT-ReciproCAM,2023,x,,x,,,x,,x,,x,,,,x,,,,,,,x,,,,,,,,,,,x,byunViTReciproCAMGradientAttentionFree2023
 DIX,2023,x,,x,,,,x,x,,x,,,,x,,,,,x,,,,x,,,,,,,,,x,barkanDeepIntegratedExplanations2023
 LTX,2023,x,,x,,,,x,x,,x,,,,x,,,,,,,x,,,,,,,,,,,x,barkanLearningExplainModelAgnostic2023
-INVERT,2023,x,x,x,,,,x,,x,x,,,,,x,x,,x,,x,,,,,,,,,,,,x,
+INVERT,2023,x,x,x,,,,x,,x,x,,,,,x,x,,x,,x,,,,,,,,,,,,x,bykovLabelingNeuralRepresentations2023
 Class Representations,2023,x,,x,,,x,,x,,x,x,,,x,,,,,x,x,,,,,,,,,,,,x,vilasAnalyzingVisionTransformers2023
 INTR,2023,x,,,x,x,,,x,,x,,,,x,,,,,x,,,,,,x,,,,,,,x,paulSimpleInterpretableTransformer2024
 Stat. Attention,2023,x,,x,,,x,,x,,x,,,,x,,,,,x,,,,x,,,,,,,,,x,nguyenInspectingExplainabilityTransformer2023
@@ -37,13 +37,13 @@ AttnLRP,2024,x,,x,,,x,,x,,x,,,,x,,,,,,,,x,,,,,,,,,,x,achtibatAttnLRPAttentionAwa
 T-TAME,2024,x,,x,,,,x,x,,x,,,,x,,,,,,x,,,,,,,,,,,,x,ntrougkasTTAMETrainableAttention2024
 R2R Proto,2024,x,,,x,x,,,x,,x,,,,x,,x,,,x,,,,,x,,,x,,,,,x,demirExplainableTransformerPrototypes2024
 TokenTM,2024,x,,x,,,x,,x,,x,,,,x,,,,,x,,,,x,,,,,,,,,x,wuTokenTransformationMatters2024
-LeGrad,2024,x,,x,,,x,,x,x,x,,,,x,,,,,,,,,x,,,,,,,,,x,
+LeGrad,2024,x,,x,,,x,,x,x,x,,,,x,,,,,,,,,x,,,,,,,,,x,bousselhamLeGradExplainabilityMethod2024
 SkipPLUS,2024,x,,x,,,,x,x,,x,,,,x,,,,,x,,,,,,,,,,,,,x,mehriSkipPLUSSkipFirst2024
 PACE,2024,x,x,x,,,,x,,x,,x,,,x,x,x,,,x,x,x,,,,,,,,,,,x,wangProbabilisticConceptualExplainers2024
 FovEx,2024,x,,x,,,,x,,x,x,,,,x,,,,,,,x,,x,,,,,,,,,x,pandaHumaninspiredExplanationsVision2024
 ProtoViT,2024,x,x,,x,,x,,x,,x,,,,x,x,x,,,,x,,,,x,,,,,,,,x,maInterpretableImageClassification2024
 B-cosification,2024,x,,,x,,,x,x,,x,,,,x,,,,,,x,,,,,,x,,,,,,x,aryaBcosificationTransformingDeep2024
-PDiscoFormer,2024,x,,,x,,x,,x,,x,,,,x,,x,,,,,,,,x,,,,,,,,x,
+PDiscoFormer,2024,x,,,x,,x,,x,,x,,,,x,,x,,,,,,,,x,,,,,,,,x,anirajPDiscoFormerRelaxingPart2025
 ULTra,2024,x,,x,,,x,,,,,,x,,x,,,,,x,x,,,,,,,,,,,,x,hosseiniULTraUnveilingLatent2024
 ICEv2,2024,x,,,x,,x,,x,,x,,,,x,,,,,,x,,,,,,,x,,,,,x,choiICEv2InterpretabilityComprehensiveness2025
 NAVE,2024,x,x,x,,,,x,,,,,x,,x,,,,,,x,,,,,,,,,,,,x,boubekkiExplainingImpactTraining2024
@@ -51,30 +51,30 @@ ViTmiX,2024,x,,x,,,x,,x,,x,,,,x,,,,,x,,,x,x,,,,,,,,,x,hogeaViTmiXVisionTransform
 AttEXplore++,2024,x,,x,,,,x,x,,x,,,,x,,,,,,,,,x,,,,,,,,,x,zhuAttributionEnhancedExplanation2024
 Prompt-CAM,2025,x,,,x,,x,,x,,x,,,,x,,,,,x,,,,,,x,,,,,,,x,chowdhuryPromptCAMMakingVision2025
 P-TAME,2025,x,,x,,,,x,x,,x,,,,x,,,,,,,x,,,,,,,,,,,x,ntrougkasPTAMEExplainAny2025
-REPEAT,2025,x,,x,,,,x,,,,,x,,x,x,,,,,,x,,,,,,,,,,,x,
+REPEAT,2025,x,,x,,,,x,,,,,x,,x,x,,,,,,x,,,,,,,,,,,x,wickstromREPEATImprovingUncertainty2024
 WASUP,2025,x,x,,x,x,,,x,,x,,,,x,,x,,,,x,,,,x,,x,,,,,,x,wolfWASUPInterpretableClassification2025
 A-SAE,2025,x,x,x,,,,x,,x,,x,,,x,,,,,,x,,,,,,,,,,,,x,felArchetypalSAEAdaptive2025
 HiT,2025,x,,,x,x,,,x,,x,,,,x,,,,,,,,,,,,,,x,,,,x,jeanneretDisentanglingVisualTransformers2025
 SALF-CBM,2025,x,x,,x,x,,,x,,,x,,,x,,x,,,,x,,,,,x,,,,,,,x,benouShowTellVisually2025
-NeuronPath,2025,,x,x,,,x,,x,,x,,,,,,,x,,,x,,,x,,,,,,,,,x,
-Proto Non-param,2025,x,x,,x,,,x,x,,x,,,,x,,,,,,x,,,,x,,,,,,,,x,
-DAAM,2025,x,,x,,,x,,x,,x,,,,x,,,,,x,,,,,,,,,,,,,x,
-GMAR,2025,x,,x,,,x,,x,,x,,,,x,,,,,x,,,,x,,,,,,,,,x,
-MDA,2025,x,,x,,,x,,x,,x,,,,x,,,,,,,x,,,,,,,,,,,x,
-PM,2025,x,,,x,,x,,x,x,x,,,,x,,,,,,x,,,,,,,x,,,,,x,
-InFlow,2025,x,,x,,,x,,x,,x,,,,x,,,,,x,x,,,x,,,,,,,,,x,
-iFAM,2025,x,,,x,,x,,x,,x,,,,x,,,,,,,,,,,,,x,,,,,x,
-LE-ProtoPNet,2025,x,x,,x,,,x,x,,x,,,,x,,x,,,,x,,,,x,,,,,,,,x,
-PA-LRP,2025,x,,x,,,x,,x,,x,,,,x,,,,,,,,x,,,,,,,,,,x,
-GCC,2025,x,x,x,,,,x,,x,x,x,,,x,,x,x,,,x,x,,,,,,,,,,,x,
-SemanticLens,2025,x,x,x,,,,x,x,x,x,x,,,,x,x,,x,,x,,x,,,,,,,,,,x,
-Integrating Attention,2025,x,x,x,,,x,,x,x,x,x,,,x,x,,,,x,,x,,x,,,,,,,,,x,
-RRM,2025,x,x,x,,,x,,,x,x,,,,,,x,x,,,x,,,x,,,,,,,,,x,
-MUTEX,2025,x,,x,,,x,,x,,x,,,,x,,,,,x,,x,,,,,,,,,,,x,
-autoXplain,2025,x,x,x,,,,x,x,,x,,,,x,,,,x,,x,,,x,,,,,,,,,x,
-RFEM,2025,x,,x,,,x,,x,x,x,,,,x,,,,,x,,,,x,,,,,,,,,x,
-VisionLogic,2025,x,x,x,,,,x,x,,x,,,,x,,,,x,,x,,,,,,,,,,,,x,
-FaCT,2025,x,x,,x,x,,,x,,x,,,,x,x,x,,,,x,,,,,x,x,,,,,,x,
+NeuronPath,2025,,x,x,,,x,,x,,x,,,,,,,x,,,x,,,x,,,,,,,,,x,wangDiscoveringInfluentialNeuron2025
+Proto Non-param,2025,x,x,,x,,,x,x,,x,,,,x,,,,,,x,,,,x,,,,,,,,x,zhuInterpretableImageClassification2025
+DAAM,2025,x,,x,,,x,,x,,x,,,,x,,,,,x,,,,,,,,,,,,,x,liaoDynamicAccumulatedAttention2025
+GMAR,2025,x,,x,,,x,,x,,x,,,,x,,,,,x,,,,x,,,,,,,,,x,joGMARGradientDrivenMultiHead2025
+MDA,2025,x,,x,,,x,,x,,x,,,,x,,,,,,,x,,,,,,,,,,,x,walkerMetricDrivenAttributionsVision2024
+PM,2025,x,,,x,,x,,x,x,x,,,,x,,,,,,x,,,,,,,x,,,,,x,kangImprovingViTInterpretability2025
+InFlow,2025,x,,x,,,x,,x,,x,,,,x,,,,,x,x,,,x,,,,,,,,,x,walkerExplainingViTsUsing2025
+iFAM,2025,x,,,x,,x,,x,,x,,,,x,,,,,,,,,,,,,x,,,,,x,anirajInherentlyFaithfulAttention2025
+LE-ProtoPNet,2025,x,x,,x,,,x,x,,x,,,,x,,x,,,,x,,,,x,,,,,,,,x,jiInterpretableFewShotImage2025
+PA-LRP,2025,x,,x,,,x,,x,,x,,,,x,,,,,,,,x,,,,,,,,,,x,bakishRevisitingLRPPositional2025
+GCC,2025,x,x,x,,,,x,,x,x,x,,,x,,x,x,,,x,x,,,,,,,,,,,x,kwonGranularConceptCircuits2025
+SemanticLens,2025,x,x,x,,,,x,x,x,x,x,,,,x,x,,x,,x,,x,,,,,,,,,,x,dreyerMechanisticUnderstandingValidation2025
+Integrating Attention,2025,x,x,x,,,x,,x,x,x,x,,,x,x,,,,x,,x,,x,,,,,,,,,x,eggenIntegratingAttentionExplanation2025
+RRM,2025,x,x,x,,,x,,,x,x,,,,,,x,x,,,x,,,x,,,,,,,,,x,kimInterpretingVisionTransformers2025
+MUTEX,2025,x,,x,,,x,,x,,x,,,,x,,,,,x,,x,,,,,,,,,,,x,marchettiMultiplexNetworkbasedRepresentation2025
+autoXplain,2025,x,x,x,,,,x,x,,x,,,,x,,,,x,,x,,,x,,,,,,,,,x,nguyenNovelFrameworkAutomated2025
+RFEM,2025,x,,x,,,x,,x,x,x,,,,x,,,,,x,,,,x,,,,,,,,,x,ayyarThereMoreAttention2025
+VisionLogic,2025,x,x,x,,,,x,x,,x,,,,x,,,,x,,x,,,,,,,,,,,,x,gengLearningInterpretableLogic2025
+FaCT,2025,x,x,,x,x,,,x,,x,,,,x,x,x,,,,x,,,,,x,x,,,,,,x,parchami-araghiFaCTFaithfulConcept2025
 Count,,74,18,48,27,12,40,23,60,16,67,9,4,1,71,9,13,4,4,30,34,17,5,20,8,5,8,8,1,7,13,4,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

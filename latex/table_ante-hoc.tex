@@ -1,7 +1,7 @@
-\begin{tabular}{ll|cc|cc|ccc|cc|cccc|ccccc|ccccc|ccccc}
+\begin{tabular}{ll|cc|ccc|cc|cccc|ccccc|ccccc|ccccc}
 
-&\rotatebox{90}{Year} & \rotatebox{90}{Local} & \rotatebox{90}{Global} & \rotatebox{90}{Model-specific} & \rotatebox{90}{Vision-transformer-specific} & \rotatebox{90}{Model-agnostic} & \rotatebox{90}{Class-specific} & \rotatebox{90}{Class-agnostic} & \rotatebox{90}{Prediction} & \rotatebox{90}{Concept} & \rotatebox{90}{Embedding} & \rotatebox{90}{Patch Interactions} & \rotatebox{90}{Feature Relevance} & \rotatebox{90}{Scalar} & \rotatebox{90}{Examples} & \rotatebox{90}{Graph} & \rotatebox{90}{Text} & \rotatebox{90}{Attention} & \rotatebox{90}{Activation} & \rotatebox{90}{Perturbations} & \rotatebox{90}{Relevance} & \rotatebox{90}{Gradient} & \rotatebox{90}{Prototype-based} & \rotatebox{90}{Concept-based} & \rotatebox{90}{Weight-Input-Alignment} & \rotatebox{90}{Masking-based} & \rotatebox{90}{Connectivity Constraints}\\
-&&\multicolumn{2}{c|}{Scope} & \multicolumn{2}{c|}{Stage} & \multicolumn{3}{c|}{Model Compatability} & \multicolumn{2}{c|}{Class-specificity} & \multicolumn{4}{c|}{Explanation Target} & \multicolumn{5}{c|}{Result} & \multicolumn{5}{c|}{Functioning} & \multicolumn{5}{c|}{Architectural Mechanisms} \\
+Method & Year & \rotatebox{90}{Local} & \rotatebox{90}{Global} & \rotatebox{90}{Model-specific} & \rotatebox{90}{Vision-transformer-specific} & \rotatebox{90}{Model-agnostic} & \rotatebox{90}{Class-specific} & \rotatebox{90}{Class-agnostic} & \rotatebox{90}{Prediction} & \rotatebox{90}{Concept} & \rotatebox{90}{Embedding} & \rotatebox{90}{Patch Interactions} & \rotatebox{90}{Feature Relevance} & \rotatebox{90}{Scalar} & \rotatebox{90}{Examples} & \rotatebox{90}{Graph} & \rotatebox{90}{Text} & \rotatebox{90}{Activation} & \rotatebox{90}{Attention} & \rotatebox{90}{Perturbations} & \rotatebox{90}{Relevance} & \rotatebox{90}{Gradient} & \rotatebox{90}{Prototype-based} & \rotatebox{90}{Concept-based} & \rotatebox{90}{Weight-Input-Alignment} & \rotatebox{90}{Masking-based} & \rotatebox{90}{Connectivity Constraints}\\
+&&\multicolumn{2}{c|}{Scope} & \multicolumn{3}{c|}{Model Compatability} & \multicolumn{2}{c|}{Class-specificity} & \multicolumn{4}{c|}{Explanation Target} & \multicolumn{5}{c|}{Result} & \multicolumn{5}{c|}{Functioning} & \multicolumn{5}{c|}{Architectural Mechanisms} \\
 \midrule
 \addlinespace
 IA-RED2 \cite{panIARED2InterpretabilityAwareRedundancy2021} & 2021 & x &  &  & x &  &  & x & x &  &  &  & x &  &  &  &  &  &  &  &  &  &  &  &  & x &  \\
@@ -23,17 +23,17 @@ B-Cos Aligned Transformers \cite{tranBCosAlignedTransformers2024} & 2024 & x &  
 R2R Proto \cite{demirExplainableTransformerPrototypes2024} & 2024 & x &  & x &  &  & x &  & x &  &  &  & x &  & x &  &  & x &  &  &  &  & x &  &  & x &  \\
 ProtoViT \cite{maInterpretableImageClassification2024} & 2024 & x & x &  & x &  & x &  & x &  &  &  & x & x & x &  &  &  & x &  &  &  & x &  &  &  &  \\
 B-cosification \cite{aryaBcosificationTransformingDeep2024} & 2024 & x &  &  &  & x & x &  & x &  &  &  & x &  &  &  &  &  & x &  &  &  &  &  & x &  &  \\
-PDiscoFormer \cite{0} & 2024 & x &  &  & x &  & x &  & x &  &  &  & x &  & x &  &  &  &  &  &  &  & x &  &  &  &  \\
+PDiscoFormer \cite{anirajPDiscoFormerRelaxingPart2025} & 2024 & x &  &  & x &  & x &  & x &  &  &  & x &  & x &  &  &  &  &  &  &  & x &  &  &  &  \\
 ICEv2 \cite{choiICEv2InterpretabilityComprehensiveness2025} & 2024 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  & x &  &  &  &  &  &  & x &  \\
 \addlinespace
 Prompt-CAM \cite{chowdhuryPromptCAMMakingVision2025} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  &  &  & x &  &  &  \\
 WASUP \cite{wolfWASUPInterpretableClassification2025} & 2025 & x & x & x &  &  & x &  & x &  &  &  & x &  & x &  &  &  & x &  &  &  & x &  & x &  &  \\
 HiT \cite{jeanneretDisentanglingVisualTransformers2025} & 2025 & x &  & x &  &  & x &  & x &  &  &  & x &  &  &  &  &  &  &  &  &  &  &  &  &  & x \\
 SALF-CBM \cite{benouShowTellVisually2025} & 2025 & x & x & x &  &  & x &  &  & x &  &  & x &  & x &  &  &  & x &  &  &  &  & x &  &  &  \\
-Proto Non-param \cite{0} & 2025 & x & x &  &  & x & x &  & x &  &  &  & x &  &  &  &  &  & x &  &  &  & x &  &  &  &  \\
-PM \cite{0} & 2025 & x &  &  & x &  & x & x & x &  &  &  & x &  &  &  &  &  & x &  &  &  &  &  &  & x &  \\
-iFAM \cite{0} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  &  &  &  &  &  &  &  & x &  \\
-LE-ProtoPNet \cite{0} & 2025 & x & x &  &  & x & x &  & x &  &  &  & x &  & x &  &  &  & x &  &  &  & x &  &  &  &  \\
-FaCT \cite{0} & 2025 & x & x & x &  &  & x &  & x &  &  &  & x & x & x &  &  &  & x &  &  &  &  & x & x &  &  \\
+Proto Non-param \cite{zhuInterpretableImageClassification2025} & 2025 & x & x &  &  & x & x &  & x &  &  &  & x &  &  &  &  &  & x &  &  &  & x &  &  &  &  \\
+PM \cite{kangImprovingViTInterpretability2025} & 2025 & x &  &  & x &  & x & x & x &  &  &  & x &  &  &  &  &  & x &  &  &  &  &  &  & x &  \\
+iFAM \cite{anirajInherentlyFaithfulAttention2025} & 2025 & x &  &  & x &  & x &  & x &  &  &  & x &  &  &  &  &  &  &  &  &  &  &  &  & x &  \\
+LE-ProtoPNet \cite{jiInterpretableFewShotImage2025} & 2025 & x & x &  &  & x & x &  & x &  &  &  & x &  & x &  &  &  & x &  &  &  & x &  &  &  &  \\
+FaCT \cite{parchami-araghiFaCTFaithfulConcept2025} & 2025 & x & x & x &  &  & x &  & x &  &  &  & x & x & x &  &  &  & x &  &  &  &  & x & x &  &  \\
 \bottomrule
 \end{tabular}
